@@ -3,7 +3,6 @@ body {
     sans-serif;
   font-size: 18px;
   color: #000000;
-  line-height: 1.5;
   background-color: #ffffff;
 }
 
@@ -22,4 +21,21 @@ body {
   text-align: left;
   text-decoration: none;
   line-height: 22px;
+}
+
+.lang {
+  position: absolute;
+  top: 50%;
+  right: -57px;
+  transform: translateY(-50%);
+}
+
+.scroll-to-top {
+  margin-block: 40px 50px;
+  margin-inline: auto;
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
 }

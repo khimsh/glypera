@@ -8,6 +8,7 @@
 }
 
 .hero__grid {
+  position: relative;
   display: grid;
   grid-template-columns: 518px auto;
   gap: 40px;

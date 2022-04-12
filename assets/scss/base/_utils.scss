@@ -2,12 +2,20 @@
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .content-between {
   justify-content: space-between;
 }
 
 .align-center {
   align-items: center;
+}
+
+.gap-10 {
+  gap: 10px;
 }
 
 .text-accent {
