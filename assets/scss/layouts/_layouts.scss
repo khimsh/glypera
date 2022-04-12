@@ -1,0 +1,21 @@
+.header__grid {
+  height: 80px;
+
+  display: grid;
+  grid-template-columns: 518px auto;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 518px auto;
+  gap: 40px;
+  align-items: center;
+}
+
+.grid-even {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

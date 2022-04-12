@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-accent {
+  color: #ff0000 !important;
+}
+.text-accent-2 {
+  color: #1996a9 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// fonts
+.fz-2 {
+  font-size: 23px;
+}
+
+.fz-3 {
+  font-size: 33px;
+}
+
+.fz-4 {
+  font-size: 40px;
+}
+
+.fw-semi {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
