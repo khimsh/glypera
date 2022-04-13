@@ -250,13 +250,13 @@ body {
   margin-top: 20px;
 }
 
-.about {
+.about-inner {
   margin-bottom: 60px;
   display: grid;
   grid-template-columns: 388px auto;
   gap: 40px;
 }
-.about figcaption {
+.about-inner figcaption {
   margin-top: 16px;
   display: flex;
   flex-direction: column;
