@@ -16,10 +16,10 @@
         <div class="banner">
           <img src="assets/img/06_STRIPE.png" alt="" />
 
-          <div>
+          <div class="banner__texts">
             <div>
-              <p>GlyPerATM -ს შეძენა შეგიძლიათ სააფთიაქო ქსელში:</p>
-              <p>ან შეუკვეთეთ ინტერნეტით</p>
+              <p class="text-accent text-center fz-2 fw-bold">GlyPerATM -ს შეძენა შეგიძლიათ სააფთიაქო ქსელში:</p>
+              <p class="text-accent text-center fz-2 fw-bold">ან შეუკვეთეთ ინტერნეტით</p>
             </div>
             <img src="assets/img/PSP_1.png" alt="" />
           </div>
@@ -27,34 +27,43 @@
         <!-- end banner -->
 
         <div class="add-to-cart">
-          <figure>
-            <img src="assets/img/GLY_BOTTLE+.png" alt="" />
-          </figure>
+          <div class="item">
+            <figure class="item__img">
+              <img src="assets/img/GLY_BOTTLE+.png" alt="" />
 
-          <div>
-            <h1>GlyPerATM პირ-ხახის სავლები 300 მლ</h1>
-            <p>15,OO ₾ 18,O3 ₾</p>
+              <div class="badge">-15%</div>
+            </figure>
 
-            <div>
-              <button>-</button>
-              <span>1</span>
-              <button>+</button>
+            <div class="item__body">
+              <h2 class="item__name">GlyPerATM პირ-ხახის სავლები 300 მლ</h2>
+              <p class="item__price">15,OO ₾ <s>18,O3 ₾</s></p>
+
+              <div class="item__quantity">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+
+              <div class="item__ctas">
+                <button class="btn btn--blue">კალათა</button>
+                <button class="btn btn--green">შეძენა</button>
+              </div>
+
+              <ul>
+                <li>SKU: GlyPerA</li>
+                <li>Category:</li>
+              </ul>
             </div>
-
-            <div>
-              <button>კალათა</button>
-              <button>შეძენა</button>
-            </div>
-
-            <ul>
-              <li>SKU: GlyPerA</li>
-              <li>Category:</li>
-            </ul>
           </div>
         </div>
         <!-- end add to cart -->
 
-        <div>
+        <div class="dzala-copy-alt" style="margin-block: -40px 27px">
+          <img src="assets/img/DZALA_5.png" alt="" />
+          <p>დისტრიბუტორი საქართველოში <strong>შპს „ძალა ვორქსი“</strong></p>
+        </div>
+
+        <div class="divider" style="margin-bottom: 63px">
           <a href="tel:+9950322370302">) +995 (032) 2370302</a>
         </div>
 
@@ -130,16 +139,16 @@
           </div>
 
           <div class="cart__content">
-            <div>
+            <div class="cart__content__header">
               <h2>კალათაშია</h2>
               <img src="assets/img/CART.png" alt="" />
             </div>
 
-            <div>
+            <div class="cart__receipt">
               <ul>
-                <li>
+                <li class="filled">
                   <span>პირ-ხახის სავლები (2)</span>
-                  <span>30,00 ₾</span>
+                  <strong>30,00 ₾</strong>
                 </li>
 
                 <li>
@@ -147,9 +156,9 @@
                   <span>0,00 ₾</span>
                 </li>
 
-                <li>
-                  <span>ქვეჯამი</span>
-                  <span>30,00 ₾</span>
+                <li class="filled">
+                  <span class="right">ქვეჯამი</span>
+                  <strong>30,00 ₾</strong>
                 </li>
 
                 <li>
@@ -158,16 +167,16 @@
                 </li>
 
                 <li>
-                  <span>ქვეჯამი</span>
+                  <span class="right">ქვეჯამი</span>
                   <span>0,00 ₾</span>
                 </li>
 
-                <li>
+                <li class="filled">
                   <span>მიწოდების ღირებულება*</span>
-                  <span>6,00 ₾</span>
+                  <strong>6,00 ₾</strong>
                 </li>
 
-                <li>
+                <li class="text-accent-2 fw-bold">
                   <span>სულ</span>
                   <span>36,00 ₾</span>
                 </li>
@@ -415,5 +424,103 @@
     <button class="scroll-to-top" data-scroll-top aria-label="scroll to top">
       <img src="assets/img/BACK TO TOP.png" alt="" />
     </button>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__left flex flex-col content-between">
+            <div class="flex">
+              <ul class="footer__nav">
+                <li>GlyPerATM</li>
+                <li>
+                  <a href="#">გამოყენება</a>
+                </li>
+                <li>
+                  <a href="#">სამეცნიერო საფუძვლები</a>
+                </li>
+                <li>
+                  <a href="#">შეძენა</a>
+                </li>
+                <li>
+                  <a href="#">კონტაქტი</a>
+                </li>
+              </ul>
+
+              <ul class="footer__distributors">
+                <li>
+                  <h3>GlyPerATM-ს დისტრიბუტორები:</h3>
+                </li>
+                <li>- საქართველო</li>
+                <li>- აზერბაიჯანი</li>
+                <li>- უკრაინა</li>
+                <li>- ინდოეთი</li>
+              </ul>
+
+              <div>
+                <div class="footer__dzala-copy">
+                  <p>
+                    GlyPerATM სავაჭრო ნიშნის მფლობელია <br />
+                    შპს „ძალა“
+                  </p>
+                  <img src="assets/img/DZALA_2.png" alt="" />
+                </div>
+
+                <div class="flex align-center content-between" style="padding-left: 22px">
+                  <p class="news-badge">სიახლე</p>
+
+                  <ul class="flex align-center gap-10">
+                    <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/FB_COL.png" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/INSTA_COL.png" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/YOU_COL.png" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__copy">
+              <p>შპს „ძალა“ © ყველა უფლება დაცულია 2022</p>
+              <a href="#">კონფიდენციალურობა</a>
+              <a href="#">პირობები</a>
+            </div>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__distributor">
+              <p>დისტრიბუტორი საქართველოში</p>
+              <img src="assets/img/DZALA_7.png" alt="" />
+            </div>
+
+            <address>
+              <p><strong>შპს „ძალა ვორკსი“</strong></p>
+              <p>თბილისი 0160, გოთუას ქ. 3</p>
+              <p>ტელ: +995 2370302</p>
+              <p>ელ-ფოსტა:</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>
+            Privacy Notice: Our site uses cookies for advertising, analytics and to improve our site and services. By continuing to use our
+            site, you agree to our use of cookies. For more information, including how to change your settings, see our privacy policy.
+            Learn more. Okay, thanks
+          </p>
+
+          <a href="#"> კონტაქტი </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

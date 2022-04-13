@@ -1,0 +1,17 @@
+.btn {
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 9px;
+  border: none;
+
+  &--blue {
+    color: #fff;
+    background-color: #1996a9;
+  }
+
+  &--green {
+    color: #fff;
+    background-color: #38d62d;
+  }
+}
