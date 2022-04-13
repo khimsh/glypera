@@ -441,8 +441,55 @@ body {
 .footer__left {
   flex-grow: 1;
 }
+.footer__left > div:first-child {
+  justify-content: space-between;
+}
 .footer__right {
   flex: 0 0 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__right address {
+  font-size: 16px;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.footer__nav li,
+.footer__nav a {
+  font-weight: 700;
+  font-size: 16px;
+}
+.footer__distributors {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.footer__distributors h3,
+.footer__distributors li {
+  font-size: 16px;
+}
+.footer__distributor {
+  display: flex;
+  gap: 15px;
+}
+.footer__distributor p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+.footer__dzala-copy {
+  margin-bottom: 33px;
+  display: flex;
+  gap: 12px;
+}
+.footer__dzala-copy p {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: right;
 }
 .footer__copy {
   margin-top: 58px;

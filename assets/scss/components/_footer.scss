@@ -16,10 +16,67 @@
 
   &__left {
     flex-grow: 1;
+
+    & > div:first-child {
+      justify-content: space-between;
+    }
   }
 
   &__right {
     flex: 0 0 318px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    address {
+      font-size: 16px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+    li,
+    a {
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+
+  &__distributors {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+    h3,
+    li {
+      font-size: 16px;
+    }
+  }
+
+  &__distributor {
+    display: flex;
+    gap: 15px;
+
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      text-align: right;
+    }
+  }
+
+  &__dzala-copy {
+    margin-bottom: 33px;
+    display: flex;
+    gap: 12px;
+
+    p {
+      margin-top: 8px;
+      font-size: 14px;
+      text-align: right;
+    }
   }
 
   &__copy {
