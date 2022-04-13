@@ -145,3 +145,48 @@ body {
     text-align: right;
   }
 }
+
+.text-block {
+  padding: 23px 24px;
+  background-color: #fff4df;
+  box-shadow: 10px 10px 8px hsl(0 0% 0% /0.5);
+
+  p {
+    font-size: 20px;
+  }
+
+  & > * + * {
+    margin-top: 20px;
+  }
+}
+
+.about {
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: 388px auto;
+  gap: 40px;
+
+  figure {
+  }
+
+  figcaption {
+    margin-top: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+  }
+}
+
+.find-out-more {
+  margin-top: auto;
+
+  h4 {
+    height: 33px;
+    font-size: 28px;
+    text-align: center;
+    color: #ffdc00;
+    background-color: #1996a9;
+  }
+}
