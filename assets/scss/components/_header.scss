@@ -1,5 +1,36 @@
 .header {
-  background-color: #ffdc00;
+  margin-bottom: 30px;
+  &.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+  }
+
+  &__top {
+    background-color: #ffdc00;
+
+    .container {
+      height: 80px;
+
+      display: grid;
+      grid-template-columns: 518px auto;
+      gap: 40px;
+      align-items: center;
+    }
+  }
+
+  &__bottom {
+    .container {
+      position: relative;
+      display: grid;
+      grid-template-columns: 518px auto;
+      gap: 40px;
+    }
+
+    p {
+      margin-top: 23px;
+    }
+  }
 
   &__social {
     margin: 0;
@@ -15,4 +46,10 @@
     font-weight: 600;
     color: #2b2e34;
   }
+}
+
+.lang {
+  position: absolute;
+  top: 7px;
+  right: -61px;
 }
