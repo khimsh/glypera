@@ -146,6 +146,18 @@ body {
   }
 }
 
+.dzala-copy-alt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+
+  p {
+    font-size: 14px;
+    text-align: right;
+  }
+}
+
 .text-block {
   padding: 23px 24px;
   background-color: #fff4df;
@@ -165,9 +177,6 @@ body {
   display: grid;
   grid-template-columns: 388px auto;
   gap: 40px;
-
-  figure {
-  }
 
   figcaption {
     margin-top: 16px;

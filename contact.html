@@ -14,26 +14,135 @@
     <main>
       <div class="container">
         <div class="contact">
-          <h1>კონტაქტი</h1>
-          <p>გთხოვთ დაგვიკავშირდეთ ელ-ფოსტაზე <a href="mailto:info@dzala.ge">info@dzala.ge</a> ან შეავსეთ ფორმა</p>
+          <div class="contact__wrapper">
+            <h1>კონტაქტი</h1>
+            <p>გთხოვთ დაგვიკავშირდეთ ელ-ფოსტაზე <a href="mailto:info@dzala.ge">info@dzala.ge</a> ან შეავსეთ ფორმა</p>
 
-          <form action="#">
-            <input type="text" name="name" id="name" placeholder="სახელი და გვარი *" required />
+            <form action="#">
+              <div>
+                <input type="text" name="name" id="name" placeholder="სახელი და გვარი *" required />
 
-            <input type="email" name="email" id="email" placeholder="ელ-ფოსტა *" required />
+                <input type="email" name="email" id="email" placeholder="ელ-ფოსტა *" required />
+              </div>
 
-            <input type="text" name="subject" id="subject" placeholder="საკითხი" />
+              <input type="text" name="subject" id="subject" placeholder="საკითხი" />
 
-            <textarea name="message" id="message" placeholder="შეტყობინება"></textarea>
+              <textarea name="message" id="message" placeholder="შეტყობინება"></textarea>
 
-            <button type="submit">გაგზავნა</button>
-          </form>
+              <button type="submit">გაგზავნა</button>
+            </form>
+          </div>
+
+          <div class="contact__info">
+            <p>შეძენისა და საქმიანი წინადადებისათვის მოგვმართეთ: შპს „ძალა ვორქსი“</p>
+            <br />
+            <p>ელ-ფოსტა: <a href="mailto:info@dzala.ge">info@dzala.ge</a></p>
+          </div>
         </div>
 
-        <div>
-          შეძენისა და საქმიანი წინადადებისათვის მოგვმართეთ: შპს „ძალა ვორქსი“ ელ-ფოსტა: <a href="mailto:info@dzala.ge">info@dzala.ge</a>
+        <div class="dzala-copy-alt" style="margin-block: -40px 40px">
+          <img src="assets/img/DZALA_5.png" alt="" />
+          <p>დისტრიბუტორი საქართველოში <strong>შპს „ძალა ვორქსი“</strong></p>
         </div>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__left flex flex-col content-between">
+            <div class="flex">
+              <ul class="footer__nav">
+                <li>GlyPerATM</li>
+                <li>
+                  <a href="#">გამოყენება</a>
+                </li>
+                <li>
+                  <a href="#">სამეცნიერო საფუძვლები</a>
+                </li>
+                <li>
+                  <a href="#">შეძენა</a>
+                </li>
+                <li>
+                  <a href="#">კონტაქტი</a>
+                </li>
+              </ul>
+
+              <ul class="footer__distributors">
+                <li>
+                  <h3>GlyPerATM-ს დისტრიბუტორები:</h3>
+                </li>
+                <li>- საქართველო</li>
+                <li>- აზერბაიჯანი</li>
+                <li>- უკრაინა</li>
+                <li>- ინდოეთი</li>
+              </ul>
+
+              <div>
+                <div class="footer__dzala-copy">
+                  <p>
+                    GlyPerATM სავაჭრო ნიშნის მფლობელია <br />
+                    შპს „ძალა“
+                  </p>
+                  <img src="assets/img/DZALA_2.png" alt="" />
+                </div>
+
+                <div class="flex align-center content-between" style="padding-left: 22px">
+                  <p class="news-badge">სიახლე</p>
+
+                  <ul class="flex align-center gap-10">
+                    <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/FB_COL.png" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/INSTA_COL.png" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/YOU_COL.png" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__copy">
+              <p>შპს „ძალა“ © ყველა უფლება დაცულია 2022</p>
+              <a href="#">კონფიდენციალურობა</a>
+              <a href="#">პირობები</a>
+            </div>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__distributor">
+              <p>დისტრიბუტორი საქართველოში</p>
+              <img src="assets/img/DZALA_7.png" alt="" />
+            </div>
+
+            <address>
+              <p><strong>შპს „ძალა ვორკსი“</strong></p>
+              <p>თბილისი 0160, გოთუას ქ. 3</p>
+              <p>ტელ: +995 2370302</p>
+              <p>ელ-ფოსტა:</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>
+            Privacy Notice: Our site uses cookies for advertising, analytics and to improve our site and services. By continuing to use our
+            site, you agree to our use of cookies. For more information, including how to change your settings, see our privacy policy.
+            Learn more. Okay, thanks
+          </p>
+
+          <a href="#"> კონტაქტი </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
