@@ -775,6 +775,7 @@ body {
 }
 .cart-item__img {
   display: flex;
+  padding-block: 40px;
 }
 .cart-item__img img {
   width: 193px;
@@ -799,6 +800,8 @@ body {
 
 .cart-table {
   margin-top: 15px;
+  padding-left: 60px;
+  width: 100%;
 }
 .cart-table th {
   font-size: 20px;
@@ -858,12 +861,21 @@ body {
   margin-bottom: 7px;
   width: 100%;
   background-color: #fff;
+  padding: 6px 5px;
+  font-size: 12px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
 }
 .box--name {
   height: 30px;
 }
 .box--address {
   height: 104px;
+}
+.box span {
+  display: flex;
+  gap: 6px;
 }
 
 .dzala-copy-3 {
@@ -944,6 +956,67 @@ body {
   margin-bottom: 18px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.voucher {
+  display: grid;
+  grid-template-columns: 327px 260px;
+  gap: 175px;
+  justify-content: end;
+  align-items: start;
+}
+.voucher input {
+  width: 327px;
+  height: 40px;
+  border: 1px solid #1996a9;
+  border-radius: 6px;
+  padding-inline: 10px;
+}
+.voucher__input {
+  position: relative;
+}
+.voucher__input input {
+  padding-inline-end: 130px;
+  padding-inline-start: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #5e5e5e;
+}
+.voucher__input input::placeholder {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5e5e5e;
+}
+.voucher__input button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 120px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1996a9;
+  border: none;
+  border-radius: 6px;
+}
+.voucher p {
+  margin-block: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #5e5e5e;
+}
+.voucher__update-cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: transparent;
+  border: none;
+}
+.voucher__update-cart span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1996a9;
 }
 
 .footer {

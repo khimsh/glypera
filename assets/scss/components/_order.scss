@@ -57,6 +57,11 @@
   margin-bottom: 7px;
   width: 100%;
   background-color: #fff;
+  padding: 6px 5px;
+  font-size: 12px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
 
   &--name {
     height: 30px;
@@ -64,6 +69,11 @@
 
   &--address {
     height: 104px;
+  }
+
+  span {
+    display: flex;
+    gap: 6px;
   }
 }
 

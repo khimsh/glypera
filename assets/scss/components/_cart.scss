@@ -100,6 +100,7 @@
 
   &__img {
     display: flex;
+    padding-block: 40px;
 
     img {
       width: 193px;
@@ -130,6 +131,9 @@
 
 .cart-table {
   margin-top: 15px;
+  padding-left: 60px;
+  width: 100%;
+
   th {
     font-size: 20px;
     font-weight: 700;

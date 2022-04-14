@@ -1,0 +1,69 @@
+.voucher {
+  display: grid;
+  grid-template-columns: 327px 260px;
+  gap: 175px;
+  justify-content: end;
+  align-items: start;
+
+  input {
+    width: 327px;
+    height: 40px;
+    border: 1px solid #1996a9;
+    border-radius: 6px;
+    padding-inline: 10px;
+  }
+
+  &__input {
+    position: relative;
+
+    input {
+      padding-inline-end: 130px;
+      padding-inline-start: 10px;
+
+      font-size: 12px;
+      font-weight: 700;
+      color: #5e5e5e;
+
+      &::placeholder {
+        font-size: 12px;
+        font-weight: 700;
+        color: #5e5e5e;
+      }
+    }
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 120px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      background-color: #1996a9;
+      border: none;
+      border-radius: 6px;
+    }
+  }
+
+  p {
+    margin-block: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #5e5e5e;
+  }
+
+  &__update-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+    border: none;
+
+    span {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1996a9;
+    }
+  }
+}
