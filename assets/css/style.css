@@ -872,6 +872,80 @@ body {
   right: 30px;
 }
 
+.make-order h2 {
+  margin-bottom: 28px;
+  font-size: 20px;
+}
+.make-order form .flex {
+  gap: 16px;
+}
+.make-order form .flex > * {
+  flex: 0 0 calc(50% - 8px);
+}
+.make-order form button {
+  display: block;
+  margin-inline: auto;
+  margin-top: 30px;
+  width: 258px;
+}
+.make-order label {
+  font-size: 14px;
+  color: #000;
+}
+.make-order .form-group {
+  margin-bottom: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.make-order .form-group input {
+  height: 30px;
+}
+.make-order .form-group textarea {
+  height: 84px;
+}
+.make-order .form-group input,
+.make-order .form-group textarea {
+  font-size: 14px;
+  border: 1px solid #707070;
+}
+.make-order .form-inline {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 9px;
+}
+.make-order .form-inline .flex {
+  width: 100%;
+}
+.make-order .form-inline input {
+  flex: 0 0 122px;
+  width: 122px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #707070;
+}
+
+.credit-card {
+  margin-top: 17px;
+}
+.credit-card__heading {
+  display: flex;
+  justify-content: space-between;
+}
+.credit-card__heading h3 {
+  font-size: 20px;
+}
+.credit-card__heading div {
+  display: flex;
+  gap: 10px;
+}
+.credit-card p {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .footer {
   padding-top: 16px;
   color: #fff;

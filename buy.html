@@ -234,78 +234,90 @@
             <h2>ანგარიშსწორებისა და მიწოდების დეტალები</h2>
 
             <form action="#">
-              <div>
-                <label for="name">სახელი*</label>
-                <input type="text" name="name" id="name" />
+              <div class="flex">
+                <div class="form-group">
+                  <label for="name">სახელი<span class="text-accent">*</span></label>
+                  <input type="text" name="name" id="name" />
+                </div>
+
+                <div class="form-group">
+                  <label for="lastname">გვარი<span class="text-accent">*</span></label>
+                  <input type="text" name="lastname" id="lastname" />
+                </div>
               </div>
 
-              <div>
-                <label for="lastname">გვარი*</label>
-                <input type="text" name="lastname" id="lastname" />
-              </div>
-
-              <div>
+              <div class="form-group">
                 <label for="address">მისამართი</label>
                 <input type="text" name="address" id="address" />
               </div>
 
-              <div>
-                <label for="city">ქალაქი/სოფელი</label>
-                <input type="text" name="city" id="city" />
-              </div>
+              <div class="flex">
+                <div class="form-group">
+                  <label for="city">ქალაქი/სოფელი</label>
+                  <input type="text" name="city" id="city" />
+                </div>
 
-              <div>
-                <label for="zip">საფოსტო კოდი</label>
-                <input type="text" name="zip" id="zip" />
-              </div>
-
-              <div>
-                <label for="tel">ტელეფონი*</label>
-                <input type="tel" name="tel" id="tel" />
-              </div>
-
-              <div>
-                <label for="email">ელ-ფოსტა*</label>
-                <input type="email" name="email" id="email" />
-              </div>
-
-              <div>
-                <label for="delivery-address">მიწოდების მისამართი* (თუ განსხვავებულია გადამხდელის მისამართისგან)</label>
-                <textarea name="delivery-address" id="delivery-address"></textarea>
-              </div>
-
-              <div>
-                <h3>საკრედიტო ბარათით გადახდა</h3>
-
-                <div>
-                  <img src="assets/img/MASTER.png" alt="" />
-                  <img src="assets/img/VISA.png" alt="" />
+                <div class="form-group">
+                  <label for="zip">საფოსტო კოდი</label>
+                  <input type="text" name="zip" id="zip" />
                 </div>
               </div>
 
-              <p>ბარათის მონაცემები *</p>
+              <div class="flex">
+                <div class="form-group">
+                  <label for="tel">ტელეფონი<span class="text-accent">*</span></label>
+                  <input type="tel" name="tel" id="tel" />
+                </div>
 
-              <div>
-                <label for="">ნომერი</label>
-                <input type="tel" name="" id="" />
+                <div class="form-group">
+                  <label for="email">ელ-ფოსტა<span class="text-accent">*</span></label>
+                  <input type="email" name="email" id="email" />
+                </div>
               </div>
 
-              <div>
-                <label for="">მფლობელი</label>
-                <input type="text" name="" id="" />
+              <div class="form-group">
+                <label for="delivery-address">მიწოდების მისამართი<span class="text-accent">*</span> (თუ განსხვავებულია გადამხდელის მისამართისგან)</label>
+                <textarea name="delivery-address" id="delivery-address"></textarea>
               </div>
 
-              <div>
-                <label for="">ვარგისია <span> თვე/წელი</span></label>
-                <input type="text" name="" id="" />
+              <div class="credit-card">
+                <div class="credit-card__heading">
+                  <h3>საკრედიტო ბარათით გადახდა</h3>
+
+                  <div>
+                    <img src="assets/img/MASTER.png" alt="" />
+                    <img src="assets/img/VISA.png" alt="" />
+                  </div>
+                </div>
+
+                <p>ბარათის მონაცემები <span class="text-accent">*</span></p>
+
+                <div class="flex">
+                  <div class="form-group">
+                    <label for="">ნომერი</label>
+                    <input type="tel" name="" id="" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="">მფლობელი</label>
+                    <input type="text" name="" id="" />
+                  </div>
+                </div>
+
+                <div class="flex">
+                  <div class="form-inline">
+                    <label for="" class="flex content-between"><strong>ვარგისია</strong> თვე/წელი</span></label>
+                    <input type="date" name="" id="" />
+                  </div>
+
+                  <div class="form-inline">
+                    <label><strong>CCV</strong></label>
+                    <input type="text" name="" id="" />
+                  </div>
+                </div>
               </div>
 
-              <div>
-                <label>თვე/წელი</label>
-                <input type="text" name="" id="" />
-              </div>
-
-              <button type="submit">გადახდა</button>
+              <button type="submit" class="btn btn--green">გადახდა</button>
             </form>
           </div>
 
