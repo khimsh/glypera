@@ -1,5 +1,6 @@
 .btn {
   height: 45px;
+  width: 100%;
   font-size: 20px;
   font-weight: 700;
   border-radius: 9px;
@@ -13,5 +14,16 @@
   &--green {
     color: #fff;
     background-color: #38d62d;
+  }
+
+  &--gray {
+    display: block;
+    height: 27px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #b6b6bb;
+    border-radius: 6px;
+    width: 115px;
+    margin-inline: auto;
   }
 }

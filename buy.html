@@ -70,72 +70,80 @@
         <!-- cart -->
         <div class="cart">
           <div>
-            <div>
-              <p>პროდუქტი</p>
-              <p>ფასი</p>
-              <p>რაოდენობა</p>
-              <p>სულ</p>
-            </div>
-
-            <div>
-              <figure>
-                <img src="assets/img/GLY_BOTTLE+.png" alt="" />
-                <figcaption>GlyPerATM პირ-ხახის სავლები 300 მლ</figcaption>
-              </figure>
-
-              <div>15,00 ₾</div>
-
-              <div>
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
-              </div>
-
-              <div>30,00 ₾</div>
-
-              <button aria-label="delete from cart">
-                <img src="assets/img/1024px-Trash_font_awesome.svg.png" alt="" />
-              </button>
-            </div>
-
-            <div>
-              <figure>
-                <img src="assets/img/Nasal spray.png" alt="" />
-                <figcaption>GlyPerATM პირ-ხახის სავლები 300 მლ</figcaption>
-              </figure>
-
-              <div>15,00 ₾</div>
-
-              <div>
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
-              </div>
-
-              <div>30,00 ₾</div>
-
-              <button aria-label="delete from cart">
-                <img src="assets/img/1024px-Trash_font_awesome.svg.png" alt="" />
-              </button>
-            </div>
-
-            <div>
-              <form action="#">
-                <div>
-                  <input type="text" name="" id="" placeholder="შეიყვანეთ კუპონის კოდი *" />
-                  <button type="submit">ჩატვირთეთ</button>
-                </div>
-
-                <p>* კუპონის გამოყენების შემთხვევაში შეიყვანეთ პირადი ნომერი</p>
-
-                <input type="number" name="" id="" />
-              </form>
-
-              <button>
-                <img src="assets/img/UPD.png" alt="" />
-                <span>განაახლეთ კალათა</span>
-              </button>
-            </div>
+            <!-- cart table -->
+            <table class="cart-table">
+              <thead>
+                <tr>
+                  <th>პროდუქტი</th>
+                  <th>ფასი</th>
+                  <th>რაოდენობა</th>
+                  <th>სულ</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <figure class="cart-item__img">
+                      <img src="assets/img/GLY_BOTTLE+.png" alt="" />
+                      <figcaption class="cart-item__name">
+                        GlyPerATM <br />
+                        პირ-ხახის სავლები <br />
+                        300 მლ
+                      </figcaption>
+                    </figure>
+                  </td>
+                  <td>
+                    <div class="cart-item__price">15,00 ₾</div>
+                  </td>
+                  <td>
+                    <div class="cart-item__quantity">
+                      <button>-</button>
+                      <span>1</span>
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="cart-item__total">30,00 ₾</div>
+                  </td>
+                  <td>
+                    <button aria-label="delete from cart" class="cart-item__remove">
+                      <img src="assets/img/1024px-Trash_font_awesome.svg.png" alt="" />
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <figure class="cart-item__img">
+                      <img style="height: 182px" src="assets/img/Nasal spray.png" alt="" />
+                      <figcaption class="cart-item__name">
+                        GlyPerATM <br />
+                        ცხვირის სპრეი <br />
+                        300 მლ
+                      </figcaption>
+                    </figure>
+                  </td>
+                  <td>
+                    <div class="cart-item__price">15,00 ₾</div>
+                  </td>
+                  <td>
+                    <div class="cart-item__quantity">
+                      <button>-</button>
+                      <span>1</span>
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="cart-item__total">30,00 ₾</div>
+                  </td>
+                  <td>
+                    <button aria-label="delete from cart" class="cart-item__remove">
+                      <img src="assets/img/1024px-Trash_font_awesome.svg.png" alt="" />
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
           <div class="cart__content">
@@ -183,7 +191,7 @@
               </ul>
             </div>
 
-            <div>
+            <div class="cart__additional-info">
               <p>* მიწოდების ფასი ავტომატურად შესულია თქვენს დაკვეთის ღირებულებაში და იანგარიშება შემდეგნაირად:</p>
 
               <ul>
@@ -211,12 +219,12 @@
               </p>
             </div>
 
-            <button>გაგრძელება</button>
+            <button class="btn btn--green">გაგრძელება</button>
           </div>
         </div>
         <!-- end cart -->
 
-        <div>
+        <div class="divider" style="margin-block: 40px 35px">
           <a href="tel:+9950322370302">) +995 (032) 2370302</a>
         </div>
 
@@ -302,40 +310,40 @@
           </div>
 
           <div class="order-details">
-            <h2>Order Details</h2>
+            <h2 class="text-center">Order Details</h2>
 
-            <ul>
+            <ul class="order-details__info">
               <li>
-                <span>შეკვეთის ნომერი:</span>
+                <span class="order-details-label">შეკვეთის ნომერი:</span>
                 <span>000000</span>
               </li>
               <li>
-                <span>შეკვეთის თარიღი:</span>
+                <span class="order-details-label">შეკვეთის თარიღი:</span>
                 <span>დდ/თთ/წწ</span>
               </li>
             </ul>
 
-            <div class="flex">
+            <div class="order-details__grid">
               <!-- col 1 -->
               <div>
                 <div>
-                  <p>სახელი, გვარი</p>
-                  <div></div>
+                  <p class="order-details-label">სახელი, გვარი</p>
+                  <div class="box box--name"></div>
                 </div>
 
                 <div>
-                  <p>მისამართი</p>
-                  <div></div>
+                  <p class="order-details-label">მისამართი</p>
+                  <div class="box box--address"></div>
                 </div>
 
                 <div>
-                  <p>მიწოდების მისამართი</p>
-                  <div></div>
+                  <p class="order-details-label">მიწოდების მისამართი</p>
+                  <div class="box box--address"></div>
                 </div>
 
                 <div>
-                  <p>გადახდა ბარათით</p>
-                  <div>
+                  <p class="order-details-label">გადახდა ბარათით</p>
+                  <div class="box box--name">
                     <span>MasterCard </span>
                     <span>
                       ბოლო ციფრები:
@@ -346,18 +354,18 @@
                 </div>
 
                 <div>
-                  <p>ტრანზაქცია საკრედიტო ბარათით</p>
-                  <div><span>MM/YY</span><span>თანხა:</span><span>36,00 ₾</span></div>
+                  <p class="order-details-label">ტრანზაქცია საკრედიტო ბარათით</p>
+                  <div class="box box--name"><span>MM/YY</span><span>თანხა:</span><span>36,00 ₾</span></div>
                 </div>
               </div>
 
               <!-- col 2 -->
               <div>
-                <h3>შეკვეთილი ნივთები</h3>
+                <h3 class="text-center" style="font-size: 16px; margin-bottom: 3px">შეკვეთილი ნივთები</h3>
 
-                <div>
+                <div class="cart__receipt cart__receipt--white">
                   <ul>
-                    <li>
+                    <li class="filled">
                       <span>პირ-ხახის სავლები (2)</span>
                       <span>30,00 ₾</span>
                     </li>
@@ -367,8 +375,8 @@
                       <span>0,00 ₾</span>
                     </li>
 
-                    <li>
-                      <span>ქვეჯამი</span>
+                    <li class="filled">
+                      <span class="right">ქვეჯამი</span>
                       <span>30,00 ₾</span>
                     </li>
 
@@ -378,29 +386,31 @@
                     </li>
 
                     <li>
-                      <span>ქვეჯამი</span>
+                      <span class="right">ქვეჯამი</span>
                       <span>0,00 ₾</span>
                     </li>
 
-                    <li>
+                    <li class="filled">
                       <span>მიწოდების ღირებულება*</span>
                       <span>6,00 ₾</span>
                     </li>
 
-                    <li>
+                    <li class="filled">
                       <span>სულ</span>
                       <span>36,00 ₾</span>
                     </li>
 
-                    <li>
+                    <li class="filled">
                       <span>შეიცავს დღგ-ს</span>
                       <span>5,49 ₾</span>
                     </li>
                   </ul>
 
-                  <p>კვალიფიცირებულ დღგ-ს გადამხდელებს გთხოვთ მოგვმართოთ სტანდარტული დღგ-ს ფაქტურისათვის</p>
+                  <p class="fz-1" style="margin-block: 11px 22px">
+                    კვალიფიცირებულ დღგ-ს გადამხდელებს გთხოვთ მოგვმართოთ სტანდარტული დღგ-ს ფაქტურისათვის
+                  </p>
 
-                  <p>
+                  <p style="font-size: 12px" class="flex content-between">
                     <a href="#">შპს „ძალა ვორკსი“</a>
                     <span>კოდი: 404590402</span>
                   </p>
@@ -408,14 +418,19 @@
               </div>
             </div>
 
-            <button>ბეჭდვა</button>
+            <button class="btn btn--gray" style="margin-top: 25px">ბეჭდვა</button>
 
-            <p>შპს „ძალა ვორკსი“ - GlyPerA™-ს დისტრიბუტორი საქართველოში</p>
+            <img src="assets/img/DZALA_5.png" alt="" class="dzala-copy-3" />
+
+            <p class="ff-helvetica" style="padding-top: 21px">
+              <strong>შპს „ძალა ვორკსი“</strong> - GlyPerA™-ს დისტრიბუტორი <br />
+              საქართველოში
+            </p>
           </div>
         </div>
         <!-- end order -->
 
-        <div>
+        <div class="divider" style="margin-top: 40px">
           <p>მადლობა შეძენისთვის</p>
         </div>
       </div>
