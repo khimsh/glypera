@@ -361,7 +361,7 @@
             გამოყენებული.
           </p>
 
-          <a href="#" class="product__btn product__btn--outline">მალე</a>
+          <a href="#" class="coming-soon">მალე</a>
 
           <div class="stop-covid">
             <img src="assets/img/Group 155.png" alt="" />
@@ -485,14 +485,12 @@
       const observer = new window.IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
-            console.log('ENTER')
             useLink.classList.add('active')
             homeLink.classList.remove('active')
             return
           }
           useLink.classList.remove('active')
           homeLink.classList.add('active')
-          console.log('LEAVE')
         },
         {
           root: null,

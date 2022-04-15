@@ -27,3 +27,21 @@
     margin-inline: auto;
   }
 }
+
+.coming-soon {
+  margin-top: 46px;
+  margin-bottom: 66px;
+  margin-inline: auto;
+  width: 111px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 6px 6px 6px hsl(0 0% 0% / 0.4);
+  border-radius: 8px;
+  color: #f1811f;
+  border: 3px solid #f1811f;
+}

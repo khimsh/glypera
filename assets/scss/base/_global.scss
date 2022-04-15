@@ -375,8 +375,8 @@ body {
 }
 
 .use-adults {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 367px 540px 1fr;
   gap: 10px;
 
   div {
