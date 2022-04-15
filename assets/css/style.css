@@ -432,6 +432,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.recommended p {
+  font-size: 20px;
+}
 .recommended__one {
   display: flex;
   align-items: center;

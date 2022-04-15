@@ -350,6 +350,10 @@ body {
   display: flex;
   justify-content: space-between;
 
+  p {
+    font-size: 20px;
+  }
+
   &__one {
     display: flex;
     align-items: center;
