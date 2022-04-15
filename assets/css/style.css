@@ -451,6 +451,12 @@ body {
   font-size: 20px;
 }
 
+.phone-icon {
+  font-family: Wingdings;
+  font-size: 27px;
+  font-weight: 400;
+}
+
 .flex {
   display: flex;
 }
@@ -901,6 +907,18 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #000;
+}
+
+.cart-content-count-wrapper {
+  position: relative;
+}
+.cart-content-count-wrapper .cart-content-count {
+  position: absolute;
+  top: 11px;
+  left: 32px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .order {
