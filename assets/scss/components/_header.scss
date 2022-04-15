@@ -20,6 +20,8 @@
   }
 
   &__bottom {
+    background-image: linear-gradient(to bottom, hsl(0 0% 100%) 50%, hsl(0 0% 100% / 0.9), hsl(0 0% 100% / 0.7), hsl(0 0% 100% / 0));
+
     .container {
       position: relative;
       display: grid;
