@@ -110,6 +110,14 @@ body {
   background-color: #ffffff;
 }
 
+.hero__grid .col-1 {
+  height: 100%;
+}
+.hero__grid .col-1 img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .dzala-copy {
   display: flex;
   justify-content: flex-end;
@@ -391,6 +399,58 @@ body {
   text-decoration: none;
 }
 
+.recommended {
+  margin-block: 30px 33px;
+  display: flex;
+  justify-content: space-between;
+}
+.recommended__one {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.recommended__one p {
+  max-width: 420px;
+}
+.recommended__two {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.recommended__two p {
+  max-width: 394px;
+}
+
+.use-adults {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.use-adults div {
+  display: flex;
+  gap: 12px;
+}
+.use-adults div p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.use-kids {
+  margin-block: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+.use-kids div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+.use-kids div p {
+  font-size: 20px;
+}
+
 .flex {
   display: flex;
 }
@@ -544,6 +604,7 @@ body {
 }
 
 .product {
+  position: relative;
   text-align: center;
 }
 .product__img {
@@ -590,6 +651,35 @@ body {
   font-size: 21px;
   font-weight: 700;
   color: #1996a9;
+}
+.product__group {
+  position: absolute;
+  right: 166px;
+  bottom: 48px;
+}
+.product__group__like {
+  position: absolute;
+  left: 33px;
+  bottom: 60px;
+  width: 46px;
+  height: 48px;
+}
+.product__group__like img {
+  width: 46px;
+  height: 48px;
+}
+.product__group__fb {
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+}
+.product__group__insta {
+  position: absolute;
+  bottom: 0;
+  left: 64px;
+  width: 40px;
+  height: 40px;
 }
 
 .contact {
@@ -1132,6 +1222,10 @@ body {
   color: #fff;
   text-decoration: none;
   background-color: #000;
+}
+.footer .news-badge + ul a {
+  display: block;
+  filter: drop-shadow(5px 5px 5px hsla(0deg, 0%, 0%, 0.5));
 }
 
 address {

@@ -10,6 +10,17 @@ body {
   background-color: #ffffff;
 }
 
+.hero__grid {
+  .col-1 {
+    height: 100%;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
 .dzala-copy {
   display: flex;
   justify-content: flex-end;
@@ -334,5 +345,65 @@ body {
   a {
     color: inherit;
     text-decoration: none;
+  }
+}
+
+.recommended {
+  margin-block: 30px 33px;
+  display: flex;
+  justify-content: space-between;
+
+  &__one {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+    p {
+      max-width: 420px;
+    }
+  }
+
+  &__two {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+
+    p {
+      max-width: 394px;
+    }
+  }
+}
+
+.use-adults {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  div {
+    display: flex;
+    gap: 12px;
+
+    p {
+      padding-top: 10px;
+      font-size: 20px;
+    }
+  }
+}
+
+.use-kids {
+  margin-block: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+
+    p {
+      font-size: 20px;
+    }
   }
 }
