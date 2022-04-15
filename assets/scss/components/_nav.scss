@@ -24,7 +24,13 @@
     color: #000000;
     text-decoration: none;
 
-    background-image: linear-gradient(to bottom, hsl(210 1% 63% / 0.56), hsl(0 0% 78% /0.45), hsl(0 0% 87% / 0.39));
+    background-image: linear-gradient(
+      to bottom,
+      hsl(210 1% 63% / 0.56) 10%,
+      hsl(0 0% 78% /0.45),
+      hsl(0 0% 87% / 0.39),
+      hsl(0 0% 90% / 0.37)
+    );
     border-radius: 0 0 10px 10px;
 
     &:hover,

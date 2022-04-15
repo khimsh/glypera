@@ -155,7 +155,10 @@
 
   &__heading {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    text-align: center;
+    gap: 20px;
 
     h3 {
       font-size: 20px;
@@ -163,6 +166,7 @@
 
     div {
       display: flex;
+      justify-content: center;
       gap: 10px;
     }
   }
