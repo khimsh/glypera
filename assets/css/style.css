@@ -279,7 +279,7 @@ body {
 }
 
 .text-block {
-  padding: 23px 24px;
+  padding: 30px 24px;
   background-color: #fff4df;
   box-shadow: 10px 10px 8px hsla(0deg, 0%, 0%, 0.5);
 }
@@ -300,7 +300,7 @@ body {
   margin-top: 16px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
   font-size: 18px;
 }
 
@@ -598,7 +598,7 @@ body {
   gap: 40px;
 }
 .header__bottom p {
-  margin-top: 23px;
+  margin-top: 14px;
 }
 .header__social {
   margin: 0;
@@ -1238,6 +1238,7 @@ body {
 .footer__distributor {
   display: flex;
   gap: 15px;
+  transform: translateY(-4px);
 }
 .footer__distributor p {
   margin-top: 10px;
@@ -1248,6 +1249,7 @@ body {
   margin-bottom: 33px;
   display: flex;
   gap: 12px;
+  transform: translateY(-4px);
 }
 .footer__dzala-copy p {
   margin-top: 8px;

@@ -59,6 +59,7 @@
   &__distributor {
     display: flex;
     gap: 15px;
+    transform: translateY(-4px);
 
     p {
       margin-top: 10px;
@@ -71,6 +72,7 @@
     margin-bottom: 33px;
     display: flex;
     gap: 12px;
+    transform: translateY(-4px);
 
     p {
       margin-top: 8px;
