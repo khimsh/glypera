@@ -485,6 +485,11 @@ body {
   font-weight: 400;
 }
 
+.use {
+  padding-top: 70px;
+  scroll-margin-top: 100px;
+}
+
 .flex {
   display: flex;
 }
@@ -1008,7 +1013,6 @@ body {
 }
 .order-details a {
   color: #000000;
-  text-decoration: none;
 }
 
 .order-details-label {

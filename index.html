@@ -245,7 +245,7 @@
       </section>
     </section>
 
-    <section class="use" id="use" style="padding-top: 80px">
+    <section class="use" id="use">
       <div class="container">
         <section>
           <img src="assets/img/PEOPLE.jpg" alt="" />
@@ -485,16 +485,19 @@
       const observer = new window.IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
+            console.log('yay')
             useLink.classList.add('active')
             homeLink.classList.remove('active')
             return
+          } else {
+            console.log('nay')
+            useLink.classList.remove('active')
+            homeLink.classList.add('active')
           }
-          useLink.classList.remove('active')
-          homeLink.classList.add('active')
         },
         {
           root: null,
-          threshold: 0.3, // set offset 0.1 means trigger if atleast 10% of element in viewport
+          threshold: 0.2, // set offset 0.1 means trigger if atleast 10% of element in viewport
         }
       )
 
